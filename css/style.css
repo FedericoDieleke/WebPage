@@ -1,0 +1,91 @@
+
+
+
+/* General */
+
+.titulo {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+/* Nav Bar*/
+.navText{
+    color: white;
+}
+
+/* Encabezado */
+
+/* .card-body{
+    background-color: burlywood;
+} */
+
+.encabezado {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: burlywood; */
+}
+.card-title {
+    text-align: center;
+  }
+  
+.card-text {
+    text-align: center;
+  }
+
+/* Portfolio */
+
+.portfolio {
+    background-color: bisque;
+}
+
+  
+
+.imagenesPortfolio {
+    border-radius: 30px;
+    height: 200px;
+    width: auto;
+    padding: 10px;
+}
+
+
+
+/*Acerca*/
+
+
+/* Formulario*/
+.contacto {
+
+        background-color: bisque;
+    
+}
+
+.formulario {
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botonForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer */
+.footerTitle {
+    text-align: center;
+    text-decoration: solid;
+}
+.direccion {
+    text-decoration: solid;
+}
+.socialImg {
+    height: 60px;
+    width: auto;
+    padding: 5px;
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <!-- NAV BAR-->
+  <header>
+
+    <nav class="navbar navbar-expand-lg fixed-top bg-dark" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#encabezado" class="navText">Federico Dieleke</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" class="navText" aria-current="page" href="#portfolio">Portfolio</a>
+            </li>
+            <a class="nav-link active" class="navText" href="#acercaDeMi">Acerca de mi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" class="navText" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+  </header>
+  <br>
+  <br>
+  <!--ENCABEZADO-->
+  <div class="encabezado" id="encabezado">
+    <div class="card" style="width: 18rem;">
+      <img src="./img/usr.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Federico Dieleke</h5>
+        <p class="card-text">Desarrollador Web</p>
+
+      </div>
+    </div>
+
+  </div>
+
+  <hr>
+  <!--PORTFOLIO-->
+  <div class="portfolio" id="portfolio">
+    <br><br>
+    <h2 class="titulo">Portfolio</h2>
+
+
+    <div class="container">
+      <div class="row">
+          <!--Color Game-->
+        <div class="col"><a href="./pag/ColorGame/index.html" target="_blank" rel="noopener noreferrer"><img
+              class="imagenesPortfolio" src="./img/colorgame.png" alt="" href="./pag/ColorGame/index.html"></a></div>
+            <!--Pagina 2-->
+        <div class="col"><a href="./pag/WeatherChannel/index.html" target="_blank" rel="noopener noreferrer"><img
+              class="imagenesPortfolio" src="./img/img2.jpeg" alt="" href="./pag/img2.html"></a></div>
+            <!--Pagina 3-->
+        <div class="col"> <a href="./pag/ChuckNorris/index.html" target="_blank" rel="noopener noreferrer"> <img
+              class="imagenesPortfolio" src="https://i.imgur.com/hLldhia.png" alt="Chuch Norris Jokes"></a></div>
+      </div>
+    </div>
+
+    <hr>
+  </div>
+  <div class="acercaDeMi" id="acercaDeMi">
+    <br><br>
+    <h2 class="titulo">Acerca de Mi</h2>
+    <br>
+    <div class="container">
+      <p class="lead">Hola! Mi nombre es Federico Dieleke, soy Técnico en equipos electromecanicos y trabajo en el
+        Ferrocarril Mitre como Supervisor de Subestaciones electricas. Me encanta la domotica, y todo lo que tenga que
+        ver con la idea de una casa inteligente. Estoy haciendo un curso de programacion web con Plataforma 5 y el
+        Centro universitario Vicente Lopez.</p>
+    </div>
+    <br>
+    <br>
+    <hr>
+  </div>
+
+  <div class="contacto" id="contacto">
+    <br><br>
+    <h2 class="titulo">Contacto</h2>
+
+    <div class="formulario">
+      <form>
+
+        <div class="mb-2">
+          <label for="exampleInputEmail1" class="form-label">Direccion de Correo</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+            placeholder="usuario@mail.com">
+        </div>
+
+        <div class="mb-2">
+          <label for="nombreFormulario" class="form-label">Nombre y Apellido</label>
+          <input type="text" name="nombreFormulario" id="nombreFormulario" class="form-control" placeholder="John Doe">
+        </div>
+
+        <div class="mb-2">
+          <label for="numeroFormulario" class="form-label">Telefono</label>
+          <input type="number" name="numeroFormulario" id="nombreFormulario" class="form-control" maxlength="10"
+            placeholder="11 12345678">
+        </div>
+
+        <div class="mb-2">
+          <label for="mensajeFormulario" class="form-label">Mensaje</label>
+          <textarea class="form-control" id="mensajeFormulario" rows="3"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Enviar</button>
+
+      </form>
+    </div>
+    <hr>
+  </div>
+  <footer>
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="row">
+            <h5 class="footerTitle">Direccion</h3>
+          </div>
+          <div class="row">
+            <div class="direccion">Av. San Martin 1000</div>
+          </div>
+          <div class="row">
+            <div class="direccion">Urdinarrain, Entrerrios</div>
+          </div>
+        </div>
+        <div class="col-md-4 offset-md-4">
+          <div class="row">
+            <h5 class="footerTitle">Redes Sociales</h3>
+          </div>
+          <div class="row">
+            <div class="col"><a href="https://facebook.com/" target="_blank" rel="noopener noreferrer"> <img
+                  src="./img/facebook.svg" alt="facebook" class="socialImg"></a></div>
+            <div class="col"><a href="https://instagram.com/" target="_blank" rel="noopener noreferrer"> <img
+                  src="./img/instagram.svg" alt="instagram" class="socialImg"></a></div>
+            <div class="col"><a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer"> <img
+                  src="./img/linkedin.svg" alt="linkedin" class="socialImg"></a></div>
+            <div class="col"><a href="https://github.com/" target="_blank" rel="noopener noreferrer"> <img
+                  src="./img/github.svg" alt="Github" class="socialImg"></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
