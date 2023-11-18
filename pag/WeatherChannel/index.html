@@ -3,14 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chuck Norris</title>
+    <title>Weather Channel</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Aprobado por Chuk Norris</h1>
-    <div class="container"><img src="https://i.imgur.com/hLldhia.png" alt=""></div>
-    
-    <button id="actualizar">Actualizar</button>
-    <h2 class="chiste"></h2>
+    <div class="encabezado">
+        <h1>Weather Channel</h1>
+        <input id="entrada" type="text" placeholder="Ingresá una ciudad">
+        <button id="boton">ENVIAR</button>
+    </div>
+    <div class="container">
+        <ul class="ciudades">
+            <li>
+                <span id="ciudad"></span><br>
+                <span id="temperatura"></span><span id="grados"></span><br>
+                <img id="wicon" src="" alt="Ícono del tiempo"><br>
+                <span id="descripcion"></span><br>
+            </li>
+        </ul>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="./api.js"></script>
 </body>
